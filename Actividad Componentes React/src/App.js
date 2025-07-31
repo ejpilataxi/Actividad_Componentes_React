@@ -20,9 +20,9 @@ function App() {
 
   return (
     <div className="container my-5">
-      <Titulo texto="Demostración de Componentes" nivel={1} />
+      <Titulo texto="Componentes React" nivel={1} />
 
-      <Parrafo texto="Vamos a mostrar todos nuestros componentes personalizados creados con React." />
+      <Parrafo texto="Procederemos a listar todos los componentes personalizados construidos en React dentro de nuestro proyecto." />
 
       <section className="my-5">
         <Titulo texto="Formulario Completo" nivel={3} />
@@ -30,12 +30,12 @@ function App() {
       </section>
 
       <section className="my-5">
-        <Titulo texto="Tabla de Usuarios" nivel={3} />
+        <Titulo texto="Tabla de los Usuarios" nivel={3} />
         <Tabla titulo="Usuarios" cabecera={cabeceraTabla} datos={datosTabla} />
       </section>
 
       <section className="my-5">
-        <Titulo texto="Lista de Frutas" nivel={3} />
+        <Titulo texto="Lista de las Frutas" nivel={3} />
         <Lista titulo="Frutas" elementos={elementosLista} />
       </section>
 
@@ -52,7 +52,7 @@ function App() {
       </section>
 
       <section className="my-5 ">
-        <Titulo texto="Imagen de ejemplo" nivel={3} />
+        <Titulo texto="Imagen" nivel={3} />
         <div className="text-center mb-3">
           <Imagen
             src=data:https://www.itmastersmag.com/wp-content/uploads/2021/01/shutterstock_1078387013-scaled.jpg"
@@ -63,8 +63,8 @@ function App() {
       </section>
 
       <section className="my-4">
-        <Titulo texto="Formulario Validado" nivel={3} />
-        <FormularioValidado titulo="Es mi formulario validado" />
+        <Titulo texto="Formulario " nivel={3} />
+        <FormularioValidado titulo="Formulario validado" />
       </section>
     </div>
   );
